@@ -1,14 +1,8 @@
 
-app-board {
-    width: 400px;
-    height: 400px;
+app-field {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(3, 30%);
     grid-gap: 5%;
     margin: 0;
-}
-
-.inactive {
-    color: #aaaaaa;
 }
